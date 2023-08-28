@@ -140,3 +140,9 @@ while (j<10){
     console.log(j + "ikinci döngü");
     j++;
 }
+
+let newelement= document.getElementById("bunu-al");
+
+console.log(newelement);
+
+newelement.innerHTML="mavi"
