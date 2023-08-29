@@ -67,7 +67,7 @@ console.log(value);
 
 /* Template Literal */
 let job ="Mühendis";
-let age = 26;
+let age = 26; 
 
 let another = `Meslek:${job}\nYaş:${age}`;
 console.log(another);
@@ -145,4 +145,12 @@ let newelement= document.getElementById("bunu-al");
 
 console.log(newelement);
 
-newelement.innerHTML="mavi"
+newelement.style.backgroundColor="#1DEB0E";
+
+let btn = document.getElementById("btn");
+
+btn.style.color="red";
+btn.style.backgroundColor="blue";
+btn.style.borderRadius="3px 5px 10px";
+btn.style.width = "100%"
+btn.style.height = "50px"
